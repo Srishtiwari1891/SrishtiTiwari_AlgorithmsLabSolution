@@ -6,8 +6,8 @@ import java.lang.IllegalArgumentException;
 
 public class Driver extends IllegalArgumentException {
 		int n;
-		try {
 		Scanner sc= new Scanner(System.in);
+		try {
 		System.out.println("Enter Size of Currnecy Denominations:");
 		n=sc.nextInt();
 		Denomination objDem = new Denomination(n);
